@@ -1,0 +1,8 @@
+modalID: 1
+title: Pyflex
+#date: 2017-07-05
+img: PyFlex.svg
+#client: Start Bootstrap
+clientLink: "#"
+category: Seismic Data processing
+description: Python port of FLEXWIN. For more information, checkout [pyflex's github repo](https://github.com/krischer/pyflex)

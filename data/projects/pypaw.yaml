@@ -1,0 +1,8 @@
+modalID: 2
+title: Pypaw
+#date: 2017-07-05
+img: PyPaw.svg
+client: Start Bootstrap
+clientLink: "#"
+category: Seismic Data processing
+description: PYthon Process Asdf Wokflow. For more information, checkout [pypaw's github repo](https://github.com/computational-seismology/pypaw)

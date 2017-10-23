@@ -1,0 +1,116 @@
+baseurl = "https://computational-seismology.github.io/"
+languageCode = "en-us"
+title = "Computational Seismology"
+theme = "creative"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "The Computational Seismology Contributors"
+	description = "None"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Computational Seismology"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Packages"
+			#portfolio = "Portfolio"
+      aside     = "Learn"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Computational Seismology"
+		subtitle   = "Resources for the modern computational seismologist."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Tools & Guidelines"
+		description = "A gathering of software tools and guidelines to help seismologists perform routine large scale computations. The current focus is on tools supporting adjoint-based seismic inversion."
+	#	buttonText  = "Get started!"
+ 
+		[params.about.button]
+			text = "Learn now"
+      link = "http://seisstar.github.io/SeisStar/"
+
+	# Software section 
+	[params.services]
+		headline = "Packages and Tools"
+
+        [[params.services.list]]
+            icon = "fa-globe"
+            title = "Comprehensive Ecosystem"
+            description = "A set of tools to perform end to end adjoint tomography campaigns."
+
+        [[params.services.list]]
+			icon = "fa-refresh"
+			title = "Continuous improvement"
+			description = "Always evolving to incorporate state of the art techniques."
+
+		[[params.services.list]]
+            icon = "fa-rocket"
+            title = "Large scale"
+            description = "Designed for execution on large scale computational infrastructures."
+
+        [[params.services.list]]
+            icon = "fa-github"
+            title = "Available on GitHub"
+            description = "Freely available and open to contributions."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get started with Seismic Inversion"
+
+		[params.aside.button]
+			text = "Learn now"
+      link = "http://seisstar.github.io/SeisStar/"
+
+	# Contact section
+	[params.contact]
+		headline = "Want to contribute or report an issue?"
+    description = "Please visit our github organization, or the relevant github repos. We are always looking to improve our tools, and fresh pairs of eyes are great for that!"
+#    phone = "123-456-6789"
+#    email = "feedback@startbootstrap.com"
+
+		[params.contact.button]
+			text = "To GitHub"
+      link = "https://github.com/computational-seismology"
+
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

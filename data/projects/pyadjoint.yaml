@@ -1,0 +1,8 @@
+modalID: 5
+title: Pyflex
+#date: 2017-07-05
+img: PyAdjoint.svg
+#client: Start Bootstrap
+clientLink: "#"
+category: Seismic Data processing
+description: Python package to measure misfits and calculate adjoint sources [pyadjoint's github repo](http://krischer.github.io/pyadjoint/).

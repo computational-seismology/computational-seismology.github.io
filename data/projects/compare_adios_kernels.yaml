@@ -1,0 +1,9 @@
+modalID: 4
+title: CompareAdiosKernels
+#date: 2017-07-05
+img: CompareAdiosKernels.svg
+client: Git repo 
+clientLink: "https://github.com/computational-seismology/CompareAdiosKernels"
+category: Test tools
+description: Compare SPECFEM kernels in ADIOS format.
+
