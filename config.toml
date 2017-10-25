@@ -55,7 +55,7 @@ googleAnalytics = ""
  
 		[params.about.button]
 			text = "Learn now"
-      link = "http://seisstar.github.io/SeisStar/"
+      link = "https://computational-seismology.github.io/learn-seismic-tomography/"
 
 	# Software section 
 	[params.services]
@@ -95,7 +95,7 @@ googleAnalytics = ""
 
 		[params.aside.button]
 			text = "Learn now"
-      link = "http://seisstar.github.io/SeisStar/"
+      link = "https://computational-seismology.github.io/learn-seismic-tomography/"
 
 	# Contact section
 	[params.contact]
